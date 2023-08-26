@@ -6,7 +6,7 @@
       "segments": [
         {
           "background": "magenta",
-          "foreground": "#white",
+          "foreground": "white",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": " {{ .Tabitha }} ",
