@@ -12,7 +12,7 @@
               "display_host": true
             },
             "style": "diamond",
-            "template": "{{ Tabitha }} <#ffffff>@</>",
+            "template": "{{ .Tabitha }} <#ffffff>on</>",
             "type": "session"
           },
           {
