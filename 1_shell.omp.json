@@ -1,5 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "var": {
+      "Tabitha": "Tabitha"
+    },
     "blocks": [
       {
         "alignment": "left",
@@ -12,7 +15,7 @@
               "display_host": true
             },
             "style": "diamond",
-            "template": "{{ .Tabitha }} <#ffffff>on</>",
+            "template": "{{ .Var.Tabitha }} <#ffffff>on</>",
             "type": "session"
           },
           {
